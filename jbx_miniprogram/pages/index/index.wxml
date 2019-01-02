@@ -1,0 +1,21 @@
+<view class="top">
+  <image src="../../img/home-top-icon.png" mode='aspectFit' class="top-icon"></image>
+  <text class='rule' bindtap='toRule'>规则说明</text>
+  <view class="circle">
+    <view class="circle-inner">
+      <!-- <image src="../../img/home-top-icon.png" mode='aspectFit' class="icon"></image> -->
+      <text class="txt1">1020</text>
+      <text class="txt2">满1000步即可捐出</text>
+    </view>
+  </view>
+  <image src="../../img/home-top-bg.png" class="top-bg" mode="widthFix"></image>
+</view>
+
+<view class="donate">
+  <view class="donate-btn">立即捐出</view>
+  <text class="donate-txt">每天零点清零哦~</text>
+</view>
+
+<view class="bottom">
+  <button class="share-btn">要求好友一起捐步得100积分</button>
+</view>

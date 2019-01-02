@@ -1,0 +1,104 @@
+.person-info {
+  background-color: #ea7766;
+  color: #fffdfa;
+  font-size: 28rpx;
+  display: flex;
+  padding: 20rpx 20rpx;
+  align-items: center;
+}
+
+.person-info .col1 {
+  width: 25%;
+}
+
+.person-info .col2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.person-info .head {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+
+.person-info .col3 {
+  width: 25%;
+}
+
+.top100 {
+  padding: 20rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #8b572a;
+  font-weight: bold;
+}
+
+.top100 .icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+
+.table-title {
+  display: flex;
+  font-size: 24rpx;
+  color: #a48c6d;
+  background-color: #f9f5ad;
+  border-bottom: 1px #eadbc2;
+  padding: 20rpx 20rpx;
+}
+
+.table-title .col1 {
+  width: 25%;
+}
+
+.table-title .col2 {
+  width: 50%;
+  text-align: center;
+}
+
+.table-title .col3 {
+  width: 25%;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  padding: 20rpx;
+  align-items: center;
+  font-size: 28rpx;
+  color: #676569;
+  border-bottom: 1px solid #eadbc2;
+  background-color: #fffdfa;
+}
+
+.item .col1 {
+  width: 25%;
+}
+
+.item .col1 .icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.item .col2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.item .col2 .head {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+
+.item .col3 {
+  width: 25%;
+}

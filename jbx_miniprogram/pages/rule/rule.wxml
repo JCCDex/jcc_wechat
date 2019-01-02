@@ -1,0 +1,7 @@
+<view class="what">什么是捐步行？</view>
+<image class="icon" src="../../img/description-icon.png"></image>
+<view class="par">1.每日捐出步数，可获得相应的爱正和积分AZH</view>
+<view class="par">2.捐出的步数与人民币的比例为10000：1，即每走10000步可捐出1块钱，由公益组织捐出给需要帮助的贫困项目</view>
+<view class="par">3.每日从零点后开始计步，当日零点清理，捐步记录可查看一个月记录</view>
+<view class="par">4.每个用户自动分配一个钱包地址和秘钥，爱正和积分等值于JJCC，可交易兑换或者参与抽奖活动等</view>
+<view class="par">5.捐步行欢迎各爱心企业为公益事业添油加力</view>

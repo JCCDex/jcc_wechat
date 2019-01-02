@@ -1,0 +1,55 @@
+<view class="top">
+  <image src="../../img/points-bg.png" mode="aspectFill" class="top-bg"></image>
+  <view class="info">
+    <view class="azh">
+      <text class="txt">10900 AZH</text>
+      <image class="icon" src="../../img/eye_close.png" mode="aspectFit"></image>
+    </view>
+    <view class="points">
+      <text class="txt">我的积分</text>
+      <image class="icon" src="../../img/what-icon.png" mode="aspectFit"></image>
+    </view>
+  </view>
+</view>
+
+<view class="my-wallet">
+  <image class="icon" src='../../img/wallet-icon.png' mode="aspectFit"></image>
+  我的钱包
+</view>
+
+<view class="item">
+  <view class="row1">钱包地址</view>
+  <view class="row2">
+    <text class="txt1">jks************jjdj</text>
+    <view class="right">
+      <image class="icon" src='../../img/copy-icon.png'></image>
+      <text class="txt2">复制地址</text>
+    </view>
+  </view>
+</view>
+
+<view class="item">
+  <view class="row1">钱包秘钥</view>
+  <view class="row2">
+    <text class="txt1">jks************jjdj</text>
+    <view class="right">
+      <image class="icon" src='../../img/copy-icon.png'></image>
+      <text class="txt2">复制秘钥</text>
+    </view>
+  </view>
+</view>
+
+<view class="tips">
+  <view class="title">
+    <image src="../../img/tips-icon.png"></image>
+    <text>温馨提示</text>
+  </view>
+  <view class="txt1">请不要泄露秘钥！</view>
+  <view class="txt2">1.最好将秘钥写到纸上保存好</view>
+  <view class="txt2">2.地址秘钥一当丢失将不可找回！</view>
+</view>
+
+<view class="bottom">
+  <view class="btn">区块链查询</view>
+  <text class="txt">www.state.jingtun.com</text>
+</view>

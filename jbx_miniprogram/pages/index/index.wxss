@@ -1,0 +1,89 @@
+@import '../../assets/css/common.wxss';
+.top {
+  position: relative;
+}
+
+.top-bg {
+  width: 750rpx;
+  z-index: 0;
+}
+
+.top-icon {
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  width: 168rpx;
+  height: 96rpx;
+  z-index: 9;
+}
+
+.rule {
+  position: absolute;
+  top: 20rpx;
+  right: 0;
+  font-size: 24rpx;
+  border-top-left-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+  color: #674c2c;
+  background-color: #fcc700;
+  padding: 10rpx 15rpx;
+}
+
+.circle {
+  position: absolute;
+  left: 50%;
+  margin-left: -130rpx;
+  bottom: -130rpx;
+  width: 260rpx;
+  height: 260rpx;
+  background-color: #fffae1;
+  border-radius: 50%;
+  border: 12rpx solid #fbc165;
+  text-align: center;
+}
+
+.circle-inner {
+  position: absolute;
+  top: 80rpx;
+}
+
+.circle-inner .icon {
+}
+
+.circle-inner .txt1 {
+  width: 260rpx;
+  display: block;
+  color: #6e513c;
+  font-size: 56rpx;
+}
+
+.circle-inner .txt2 {
+  width: 260rpx;
+  display: block;
+  color: #787878;
+  font-size: 24rpx;
+}
+
+.donate {
+  position: relative;
+  top: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-btn {
+  display: inline-block;
+  background-color: #ea7766;
+  font-size: 28rpx;
+  color: #fff;
+  padding: 10rpx 30rpx;
+  border-radius: 40rpx;
+}
+
+.donate-txt {
+  font-size: 28rpx;
+  color: #787878;
+}
+

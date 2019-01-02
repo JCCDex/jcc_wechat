@@ -1,0 +1,19 @@
+button::after {
+  border: none;
+}
+.bottom {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 30rpx;
+}
+
+.share-btn {
+  background-color: #ffe793;
+  font-size: 28rpx;
+  color: #8b572a;
+  padding: 10rpx 50rpx;
+  border: none;
+  border-radius: 40rpx;
+}

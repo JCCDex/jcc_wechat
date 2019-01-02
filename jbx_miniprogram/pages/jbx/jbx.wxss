@@ -1,0 +1,85 @@
+.jbx{
+  padding: 0 20rpx;
+}
+.title{
+  margin: 30rpx 0 20rpx 0;
+  display: flex;
+  align-items: center;
+}
+.title::before{
+  display: inline-block;
+  content: '';
+  width: 5rpx;
+  height: 28rpx;
+  background-color: #ea7766;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+}
+.title .txt1{
+  display: inline-block;
+  font-size: 28rpx;
+  color: #674c2c;
+  margin-right: 20rpx;
+}
+.title .txt2{
+  font-size: 24rpx;
+  color: #676569;
+}
+.banner{
+
+}
+.intro .txt1{
+  margin: 20rpx 0;
+  font-size: 28rpx;
+  color: #674c2c;
+  font-weight: bold;
+}
+.intro .txt2{
+  font-size: 26rpx;
+  color: #676569;
+}
+
+.item-wrap .item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fef4d1;
+  border:1px solid #ffe793;
+  height: 140rpx;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+}
+
+.item-wrap .item .item-left{
+  display: flex;
+}
+
+.item-wrap .item .item-left .icon{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+}
+
+.item-wrap .item .item-left .txt1{
+  display: block;
+  font-size: 28rpx;
+  color: #674c2c;
+  font-weight: bold;
+}
+
+.item-wrap .item .item-left .txt2{
+  display: block;
+  font-size: 24rpx;
+  color: #674c2c;
+}
+
+.item-wrap .item .item-right .love-icon{
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 10rpx;
+}
+
+.item-wrap .item .item-right .txt3{
+  font-size: 24rpx;
+  color: #ea7766;
+}

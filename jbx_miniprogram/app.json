@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ranking/ranking",
+    "pages/record/record",
+   
+    "pages/points/points",
+    "pages/mine/mine",
+    "pages/jbx/jbx",
+    "pages/rule/rule"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "捐步行",
+    "navigationBarTextStyle": "white"
+  },
+  "functionalPages": true,
+  "enablePullDownRefresh": false,
+  "tabBar": {
+    "color": "#674c2e",
+    "selectedColor": "#ea7766",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/index.png",
+        "selectedIconPath": "img/index-select.png"
+      },
+      {
+        "pagePath": "pages/jbx/jbx",
+        "text": "捐步行",
+        "iconPath": "img/jbx.png",
+        "selectedIconPath": "img/jbx-select.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/mine.png",
+        "selectedIconPath": "img/mine-select.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+.what{
+  font-size:30rpx;
+  color:#8b572a;
+  margin: 50rpx 0 30rpx 0;
+  text-align: center;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 88rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+}
+.par{
+  font-size:26rpx;
+  color:#8d6e5c;
+  padding: 0 60rpx;
+  margin-bottom: 30rpx;
+}

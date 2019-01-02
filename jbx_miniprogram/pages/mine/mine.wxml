@@ -1,0 +1,49 @@
+<view class="top">
+  <image class="head" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546418326710&di=36315e2c5bd3c0ddc605c5358f727f8d&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0120045804f78ea84a0d304f8d366c.png"></image>
+  <text class="nickname">小芹菜</text>
+  <view class="view-wrap">
+    <view class="view">
+      <image class="view-btn" src="../../img/view-btn.png">点击查看</image>
+      <view class="view-info">
+        <image class="icon" src="../../img/view-icon.png"></image>
+        <text class="txt">我的积分</text>
+      </view>
+    </view>
+    <!-- <view class="view-txt">点击查看</view> -->
+  </view>
+  <view class="info">
+    <view class="col">
+      <text class="txt1">今日已走 /步</text>
+      <text class="txt2">5600</text>
+    </view>
+    <view class="col">
+      <text class="txt1">今日已捐 /步</text>
+      <text class="txt2">5600</text>
+    </view>
+    <view class="col">
+      <text class="txt1">合计配捐 /元</text>
+      <text class="txt2">0.5</text>
+    </view>
+  </view>
+</view>
+
+
+<view class="item-wrap">
+  <view class="item"></view>
+  <view class="item" bindtap='toRanking'>
+    <image class="icon" mode="aspectFit" src="../../img/award-icon.png"></image>
+    <text>排行榜</text>
+  </view>
+  <view class="item" bindtap='toRule'>
+    <image class="icon" mode="aspectFit" src="../../img/rule-icon.png"></image>
+    <text>规则说明</text>
+  </view>
+  <view class="item" bindtap='toRecord'>
+    <image class="icon" mode="aspectFit" src="../../img/record-icon.png"></image>
+    <text>捐步记录</text>
+  </view>
+</view>
+
+<view class="bottom">
+  <button class="share-btn">要求好友一起捐步得100积分</button>
+</view>

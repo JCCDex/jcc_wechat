@@ -1,0 +1,104 @@
+@import '../../assets/css/common.wxss';
+.top{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 340rpx;
+  background-color: #e17766;
+}
+.head{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-top: 30rpx;
+}
+.nickname{
+  font-size: 26rpx;
+  color: #ffece8;
+  padding: 10rpx 0 30rpx 0;
+}
+.view-wrap{
+  position: relative;
+}
+.view{
+  position: relative;
+  width: 190rpx;
+}
+.view-btn{
+  width: 190rpx;
+  height: 60rpx;
+}
+.view-info{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60rpx;
+}
+.view-info .icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.view-info .txt{
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #fffdfa;
+}
+.view-txt{
+  position: absolute;
+  top: 30rpx;
+  left: 200rpx;
+  font-size: 26rpx;
+  color: #f8c8bf;
+}
+
+.info{
+  position: absolute;
+  bottom:-70rpx;
+  width: 710rpx;
+  height: 140rpx;
+  border:1px solid #f9e4c2;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  border-radius: 10rpx;
+}
+.info .col{
+  border-right: 1px solid #f9e4c2;
+  padding: 0 40rpx;
+}
+.info .col .txt1{
+  display: block;
+  font-size: 24rpx;
+  color: #a48c6d;
+}
+.info .col .txt2{
+  display: block;
+  font-size: 26rpx;
+  color: #ea7766;
+  font-weight: bold;
+}
+.info .col:last-child{
+  border:none;
+}
+.item-wrap .item{
+  display: flex;
+  align-items: center;
+  height: 120rpx;
+  border-bottom: 1px solid #eadbc2;
+  font-size: 26rpx;
+  color: #674c2c;
+  padding: 0 30rpx;
+}
+.item-wrap .item .icon{
+   width: 30rpx;
+   height: 30rpx;
+   margin-right: 20rpx;
+}

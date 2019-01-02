@@ -1,0 +1,32 @@
+<view class="jbx">
+  <view class='title'>
+    <text class="txt1">捐助项目</text>
+    <text class="txt2">您的捐助将送达该项目</text>
+  </view>
+  <image class="banner"></image>
+  <view class="intro">
+    <view class="txt1">山区留守儿童助学</view>
+    <view class="txt2">本项目募集的所有资金将给予大别山区200名贫困留守儿童进行爱心助学。       </view>
+  </view>
+
+  <view class='title'>
+    <text class="txt1">公益组织</text>
+    <text class="txt2">您所捐的步数由公益组织提供捐款</text>
+  </view>
+
+  <view class="item-wrap">
+    <view class="item">
+      <view class="item-left">
+        <image class="icon" src="../../img/organization-icon.png"></image>
+        <view class="info">
+          <text class="txt1">FOUND基金会</text>
+          <text class="txt2">共计100000步数</text>
+        </view>
+      </view>
+      <view class="item-right">
+        <image class="love-icon" src="../../img/love-icon.png"></image>
+        <text class="txt3">已捐助1000元</text>
+      </view>
+    </view>
+  </view>
+</view>

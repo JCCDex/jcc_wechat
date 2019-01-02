@@ -1,0 +1,30 @@
+<view class="person-info">
+  <view class="col1">1002</view>
+  <view class="col2">
+    <image class="head" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1546439785&di=34dc527d2812ccf94780892a88ab1639&src=http://image.biaobaiju.com/uploads/20180802/03/1533150394-yjpNKoZIiC.jpg" mode="aspectFit"></image>
+    <text>小芹菜</text>
+  </view>
+  <view class="col3">10900</view>
+</view>
+
+<view class="top100">
+  <image src="../../img/award-icon.png" class="icon"></image>
+  <text>今日排行TOP100</text>
+</view>
+
+<view class="table-title">
+  <view class="col1">排名</view>
+  <view class="col2">用户名</view>
+  <view class="col3">捐出步数</view>
+</view>
+
+<view class="item">
+  <view class="col1">
+   <image src="../../img/award-icon.png" class="icon"></image>
+  </view>
+  <view class="col2">
+    <image class="head" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1546439785&di=34dc527d2812ccf94780892a88ab1639&src=http://image.biaobaiju.com/uploads/20180802/03/1533150394-yjpNKoZIiC.jpg" mode="aspectFit"></image>
+    <text>小芹菜</text>
+  </view>
+  <view class="col3">2019</view>
+</view>

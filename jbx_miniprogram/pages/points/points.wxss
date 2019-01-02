@@ -1,0 +1,134 @@
+.top {
+  position: relative;
+  display: flex;
+}
+.top-bg {
+  width: 750rpx;
+}
+.info{
+  position: absolute;
+  width: 750rpx;
+}
+.azh{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.azh .txt{
+  font-size:36rpx;
+  color:#ffece8;
+}
+.azh .icon{
+  width: 32rpx;
+  height: 16rpx;
+  margin-left: 10rpx;
+}
+.points{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+.points .txt{
+  font-size:26rpx;
+  color:#ffece8;
+}
+.points .icon{
+  width: 26rpx;
+  height: 24rpx;
+  margin-left: 10rpx;
+}
+.my-wallet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fee698;
+  padding: 10rpx 0;
+  font-size: 28rpx;
+  color: #674c2c;
+}
+.my-wallet .icon{
+  width: 28rpx;
+  height: 28rpx;
+  padding: 10rpx 0;
+  margin-right: 10rpx;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 140rpx;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eadbc2;
+  padding: 0 30rpx;
+}
+.item .row1{
+  font-size: 26rpx;
+  color:#a48c6d;
+}
+.item .row2{
+  display: flex;
+  justify-content: space-between;
+}
+.item .row2 .txt1{
+  font-size: 28rpx;
+  color:#674c2c;
+}
+.item .row2 .right{
+  display: flex;
+  align-items: center;
+}
+.item .row2 .right .icon{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.item .row2 .right .txt2{
+  font-size: 24rpx;
+  color: #787876;
+}
+.tips{
+  margin-top: 40rpx;
+  font-size: 26rpx;
+  color: #99764b;
+  padding: 0 30rpx;
+}
+.tips .title {
+  display: flex;
+  align-items: center;
+  line-height: 2;
+}
+.tips .title image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.tips .txt1{
+  color: #ea7766;
+  line-height: 1.5;
+}
+.tips .txt2{
+  color: #787876;
+  line-height: 1.5;
+}
+.bottom{
+  width: 100%;
+  position: fixed;
+  bottom: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom .btn{
+  color: #fffdf6;
+  background-color: #ea7766;
+  padding: 10rpx 250rpx;
+  font-size:26rpx;
+  border-radius: 30rpx;
+}
+.bottom .txt{
+  font-size:24rpx;
+  color:#787876;
+}
